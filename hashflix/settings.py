@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 TOKEN_CSRF = os.getenv('TOKEN_CSRF')
 if TOKEN_CSRF:
     SECRET_KEY = TOKEN_CSRF
-    CSRF_TRUSTED_ORIGINS = ['https://dajngo-flix.onrender.com/']
+    CSRF_TRUSTED_ORIGINS = ['https://dajngo-flix.onrender.com']
 else:
     SECRET_KEY = 'django-insecure-avz%i_@jl8exu7w=e&&p3o$7568-^%v2*tmd*!f^+j^v%uqo5z'
 
