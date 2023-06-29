@@ -30,7 +30,7 @@ else:
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://dajngo-flix.onrender.com/', 'localhost', '127.0.0.1:8000']
+ALLOWED_HOSTS = ['dajngo-flix.onrender.com', 'localhost', '127.0.0.1:8000']
 
 
 # Application definition
